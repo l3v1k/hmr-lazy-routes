@@ -1,0 +1,35 @@
+{
+  "name": "hmr-hot-routes",
+  "version": "1.0.0",
+  "description": "Demo for hot-loader (hmr?) + renderRouter bug",
+  "main": "src/index.js",
+  "author": "l3v1k",
+  "license": "MIT",
+  "scripts": {
+    "start": "webpack-dev-server --config ./webpack.js"
+  },
+  "dependencies": {
+    "@babel/plugin-syntax-dynamic-import": "^7.2.0",
+    "@loadable/component": "^5.10.2",
+    "babel-polyfill": "^6.26.0",
+    "history": "^4.9.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-hot-loader": "^4.12.10",
+    "react-router": "^5.0.1",
+    "react-router-config": "^5.0.1",
+    "react-router-dom": "^5.0.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/preset-react": "^7.0.0",
+    "babel": "^6.23.0",
+    "babel-loader": "^8.0.6",
+    "core-js": "3",
+    "html-webpack-plugin": "^4.0.0-beta.8",
+    "webpack": "^4.39.1",
+    "webpack-cli": "^3.3.6",
+    "webpack-dev-server": "^3.7.2"
+  }
+}
